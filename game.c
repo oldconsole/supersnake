@@ -553,6 +553,7 @@ int main() {
 				g_phase = PHASE_INITGAME;
 				break;
 		}
+		rand();
 		resettimer();
 		clearjoy(0);
 		delay(5);
